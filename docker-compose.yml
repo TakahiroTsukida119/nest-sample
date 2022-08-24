@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  app:
+    build: ".docker/node"
+    container_name: 'nest-app'
+    tty: true
+    volumes:
+      - ".:/app"
+    ports:
+      - "3000:3000"
