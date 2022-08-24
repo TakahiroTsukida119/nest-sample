@@ -7,6 +7,22 @@
 | Nest | 9.0.0   |
 | Node | 14.17.0 |
 
+## Setup
+
+```bash
+$ git clone https://github.com/TakahiroTsukida119/nest-sample.git
+$ cd nest-sample
+$ make up
+```
+
+## Docker Container
+```shell
+$ make ps
+CONTAINER ID   IMAGE             COMMAND                  CREATED         STATUS         PORTS                    NAMES
+72849eefb5d8   node-server_app   "docker-entrypoint.s…"   9 seconds ago   Up 8 seconds   0.0.0.0:3000->3000/tcp   nest-app
+```
+
+
 ## Installation
 
 ```bash
